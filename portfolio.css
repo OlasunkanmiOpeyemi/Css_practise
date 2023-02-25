@@ -1,0 +1,56 @@
+*{margin: 0px;padding: 0px;box-sizing: border-box;}
+/*----------------------------------------header section one ---------------------------------------------------- */
+.section1 {width: 100%; height: 100vh;background-color: rgba(24, 58, 78, 0.993);font-family: sans-serif;}
+.nav{display: flex;align-items:  center; justify-content: space-between;padding:40px 8% 0px 8%;}
+.nav h2{color: white;font-size: 32px;text-transform: capitalize;letter-spacing: 1px;text-shadow: 0px 3px 5px red;}
+.red{color: red;text-shadow: 0px 2px 5px white;}
+.nav ul li{display: inline;list-style-type: none;padding: 5px 20px;}
+.nav ul li a{color: white;text-decoration: none;text-transform: capitalize;text-shadow: 0px 3px 5px red;}
+.nav ul li a:hover{background-color: red;padding: 5px 10px;border-radius: 8px;transition: .5s;}
+.btn{color: white;text-decoration: none;font-style: italic; text-transform: capitalize;background-color: red;padding: 5px 8px;border-radius: 16px;}
+.btn:hover{font-weight: bold;transition: .4s;padding: 10px 20px;background-color: blue;}
+/* -------------------------------------------------------intro---------------------------------------------------- */
+.intro{position: absolute;margin-top: 10%; margin-left: 8%;}
+.intro h1{color:white;font-size: 3rem; text-transform: capitalize;text-shadow: 0px 3px 5px red;}
+.intro h4{color:rgb(255, 255, 255);font-style: italic; text-transform: capitalize;letter-spacing: 2px;font-size: 22px;text-shadow: 0px 3px 5px red;}
+.intro h3{text-transform: capitalize;color: white; font-size: 22px;font-style: italic; text-shadow: 0px 3px 5px red;}
+.intro form{position: relative;}
+.intro form input{padding:10px 50px 10px 20px;border-radius: 40px;}
+.bbtn{background-color: red;color: white;font-style: italic; text-decoration: none;text-transform: capitalize;padding: 5px 15px; border-radius: 20px;}
+.bbtn:hover{padding: 5px 20px;font-weight: bold;transition: .5s;background-color: blue;}
+/* ------------------------------------------header section one----------------------------------------------------- */
+
+/* ------------------------------------------main section two--------------------------------------------------- */
+.section2 {width: 100%;height: 100vh;background-color: rgba(95, 151, 184, 0.993);}
+.parag{display: flex;align-items: center;justify-content:right;padding: 10% 25% 0% 0px;}
+.parag h1{color:white;text-transform: capitalize;font-size: 2rem;text-shadow: 0px 3px 5px red;}
+.parag h4{color: white;text-transform: capitalize;font-style: italic; font-size: 16px;text-shadow: 0px 3px 5px red;}
+.parag p{text-transform:lowercase;font-style: italic; font: size 16px;px;text-align:justify; color: rgb(69, 20, 114);}
+.parag .bttn{text-decoration: none;background-color: red;border-radius: 20px;padding: 5px 10px;color: white;font-size: 16px;}
+.parag .bttn:hover{padding: 5px 20px;font-weight: bold;font-size: 22px;background-color: blue;transition: .5s;}
+/* -------------------------------------------main section two---------------------------------------------------- */
+
+/* --------------------------------------------main section three-------------------------------------------------- */
+.section3 {width: 100%;height: 100vh;background-color: rgba(136, 182, 209, 0.993)}
+.div2{text-align: center;padding: 6% 8% 0% 8%;}
+.three{display: flex;align-items: center;justify-content:space-around;padding: 45px 8%;}
+.div2 h1{color: white;text-transform: uppercase;font-size: 40px;text-shadow: 0px 3px 5px red;}
+.div2 .three div{background-color: rgba(0, 0, 0, 0.342);border-radius: 10px;padding: 10px;}
+.div2 h4 {color: white;text-transform: capitalize;font-size: 16px;text-shadow: 0px 3px 5px red;}
+.div2 .three div a{text-decoration: none;text-transform: capitalize;background-color: red;padding: 5px 10px;color: white;border-radius: 20px;}
+.div2 .three div a:hover{background-color: blue;padding: 10px 20px;font-weight: bold;transition: .5s;}
+/* ---------------------------------------------main section three------------------------------------------------- */
+
+/* ---------------------------------------------footer section4---------------------------------------------------- */
+.section4 {width: 100%;height: 100vh;background-color: rgba(36, 101, 138, 0.993)}
+.div3{display:block; text-align: center;justify-content: center;align-items: center;padding-top: 8%;}
+.div3 .diiv{background-color: rgba(0, 0, 0, 0.329);padding: 4%;}
+.div3 .diiv h1{color: white;font-size: 32px;text-transform: capitalize;text-shadow: 0px 3px 5px red;}
+.div3 .diiv a{text-decoration: none;text-transform: capitalize;color: white;background-color: red;padding: 10px 30px;border-radius: 20px;}
+.div3 .diiv a:hover{background-color: blue;padding: 10px 20px;font-weight: bold;transition: .5s;}
+.div div{padding-bottom: 10px;}
+.div3 div h1{color: white;text-transform: capitalize;font-size: 22px;text-shadow: 0px 3px 5px red;}
+.div3 div p{color: purple}
+.div3 div a{text-decoration: none;text-transform: capitalize;color: white;background-color: red;padding: 5px 15px;
+border-radius: 20px;}
+.div3 div a:hover{background-color: blue;padding: 10px 20px;font-weight: bold;transition: .5s;}
