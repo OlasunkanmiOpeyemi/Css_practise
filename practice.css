@@ -1,20 +1,22 @@
-*{margin: 0;padding: 0;box-sizing: border-box;}
-body{width: 100%;height: 100vh; font-family: Georgia;background-color:rgb(80, 166, 201)}
-div nav{display: flex;align-items: center;justify-content: space-between;padding: 30px 10% 0px 10%;}
-div nav h1{text-transform: capitalize;letter-spacing: 1px;font-size: 32px;color: white;}
+*{margin: 0em;padding: 0em;box-sizing: border-box;}
+body{background: linear-gradient(to top left, rgb(202, 71, 90), rgb(60, 127, 150));width: 100vw;height: 100vh;font-family:Georgia;}
+                                /* -----------------------SECTION 1------------------------------ */
+/* ---------------------------------------------nav------------------------------------------------------------------------------- */
+.nav1{display: flex;align-items: center;justify-content: space-between;padding: 3em 10em;}
+.nav1 h1{text-transform: capitalize;font-weight:bolder;font-size: rem;color: white;font-size: 2rem;}
 span{color: red;}
-ul li{display: inline-block; list-style-type: none;padding: 10px 10px;}
-ul li a{color: white;text-decoration: none;text-transform: capitalize;font-size: 22px;}
-ul li a:hover,.active
-{background-color: red;border-radius: 10px;font-weight: bold;padding: 4px 8px;}
-.btn{color: white;text-decoration: none;text-transform: capitalize;font-size: 22px;background-color: red; padding: 4px 10px;border-radius: 20px;outline: none;}
-.btn:hover{font-weight: bold;transition: .4s;}
-.body{align-items: center;justify-content: center;text-align: center;margin-top: 15%;}
-.body h1{text-transform: uppercase;color:white;font-size: 45px;text-shadow: 0px 3px 1.5px red;}
-.body h2{text-transform: uppercase;color:white;font-size: 25px;text-shadow: 0px 3px 1.5px red;}
-.body .bbtn{text-transform: uppercase;
-  color: white;
-  font-size: 25px;
-  background-color:red; border-radius: 20px;padding: 5px 10px;text-decoration: none;
-  }
-.body .bbtn:hover{font-weight: bold;transition: .4s;}
+.nav1 ul li{list-style-type: none;display: inline;padding: 1em;}
+.nav1 ul li a{text-transform: capitalize;text-decoration: none;color: white;font-size: 1.05rem;}
+.nav1 ul li a:hover{background-color: red;padding:.40em .80em;border-radius: 10px;outline: none;border: none;transition: .5s;font-weight: bolder;}
+.nav1 .btn{text-transform: capitalize;text-decoration: none;color: white;background-color: red;padding: .40em .80em;border-radius: 10px;font-size: 1.05rem;}
+nav .btn:hover{background-color: transparent;transition: .5s;font-weight: bolder;}
+/* ---------------------------------------------nav------------------------------------------------------------------------------ */
+                                        /* ---------------------SECTION 2-------------------------- */
+/* -----------------------------------------------div1---------------------------------------------------------------------------- */
+.div1{position:absolute;top: 50%;left: 50%;transform: translate(-50%,-50%); text-align: center;display:inline-block;}
+.div1 h1{color: white;text-transform: uppercase;font-size: 5vmin;margin-bottom: .5rem;}
+.div1 h2{color:red;text-transform: uppercase;font-size: 4vmin;margin-bottom: 1rem;}
+.div1 .bbtn{text-transform: capitalize;text-decoration: none;color: white;background-color: red;padding: .40em .80em;border-radius: 10px;
+font-size: 1.05rem;}
+.div1 .bbtn:hover{background-color: transparent;transition: .5s;font-weight: bolder;}
+/* -----------------------------------------------div1----------------------------------------------------------------------------- */
