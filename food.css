@@ -1,8 +1,18 @@
 *{margin: 0em;padding: 0em;box-sizing: border-box;}
-/* ---------------------------------------------------------section one-------------------------------------------------------- */
+body{background: linear-gradient(to left,rgba(255, 0, 0, 0.486),rgba(0, 0, 255, 0.644));width: 100vw;height: 100vh;}
+/* ------------------------------------------------------section one------------------------------------- */
+.section1{width: 100vw;height: 50vh;position: relative;}
+.section1 div{position:absolute;top: 60%;left: 50%;text-align: center; transform: translate(-50%,-60%);}
+.section1 div h1{text-transform: uppercase;color:whitesmoke;font-size: 2.2rem;}
+.section1 div p{color: whitesmoke;font-size: 1.1rem;margin: .5rem;}
+.section1 form .input{width: 80%; padding: .50rem;border-radius: 20px;outline: none;border: none;}
+.section1 form .button{display: inline-block;width: 40%;margin: .5rem;padding: .30rem;text-transform: capitalize;}
+/* -------------------------------------------------section one-------------------------------------------------------- */
 
-/* ---------------------------------------------------------section one-------------------------------------------------------- */
-
-/* ---------------------------------------------------------section two----------------------------------------------------------- */
-
-/* ---------------------------------------------------------section two---------------------------------------------------------- */
+/* --------------------------------------------------section two------------------------------------------------- */
+.section2{position: absolute;width: 100vw;}
+.div2 div{display:inline-block;padding: .50rem;position: relative;left:25%;transform: translate(-60%,7%);}
+.div2 div h3{text-transform: capitalize;color: white;}
+.div2 div p{color: whitesmoke;}
+.div2 div img{width: 25vw;height: 25vh;}
+/* ---------------------------------------------------section two----------------------------------------- */
