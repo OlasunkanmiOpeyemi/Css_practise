@@ -1,84 +1,59 @@
 *{margin: 0em;padding: 0em;box-sizing: border-box;}
-body{font-family: Georgia;}
-span{color: red;}
-                  /*----------------------------------section one ---------------------------- */
-.sec0{width: 100vw;height: 100vh;background: linear-gradient(to right bottom, rgba(0, 0, 255, 0.486), rgba(255, 0, 0, 0.527));}
-.sec1{width:100vw; height: 30vh;}
-.sec1 nav{display: flex;align-items: center;justify-content: space-between;padding: 2em 8em;}
-.sec1 h2{color: white;text-transform: capitalize;font-size: 7vmin;}
-.sec1 li{display: inline;list-style-type: none;padding: 1em ;}
-.sec1 ul li a{text-decoration: none;text-transform: capitalize;color: white;font-size: 1.05rem;}
-.sec1 ul li a:hover{background-color:red;font-weight: 500;padding: .30em .60em;border-radius: 5px;}
-.sec1 .a{text-decoration: none;text-transform: capitalize;color: white;font-size: 1.05rem;background-color: red;font-weight:bold;padding: .30em .60em;border-radius: 10px;}
-.sec1 .a:hover{background: transparent;transition: .5s;}
+body{background: linear-gradient(to left bottom,rgb(0, 0, 255),rgb(255, 0, 13));width: 100vw;font-family: Georgia;}
+.span{color: red;}
+/*------------------------------------sec1(nav)----------------------------------------------*/
+.sec1{width: 100vw;height: 20vh;background-color: rgba(0, 0, 0, 0.600);}
+.sec1>div>nav{display: flex;text-align: center;justify-content: space-between;padding:4% 8%;}
+.sec1>div>nav>h1{text-transform: capitalize;color: white;letter-spacing: 1px;font-size: 2.5rem;}
+.sec1>div>nav>ul>li{display: inline;list-style-type: none;padding: 1em;font-size: 1rem;}
+.sec1>div>nav>ul>li>a{text-transform: capitalize;text-decoration: none; color: white;font-size: 1rem;}
+.sec1>div>nav>ul>li>a:hover{background-color: red;border-radius: 10px;padding: 0.3em 0.9em;border: none;transition: 0.5s;}
+.sec1>div>nav>a{text-decoration: none;text-transform: capitalize;color: white;border-radius:10px;}
+.sec1>div>nav>a:hover{background-color: red;border-radius: 10px;padding: 0.2em 0.6em;border: none;transition: 0.5s;}
+/*-------------------------------------sec1(nav)---------------------------------------------*/
 
-                  /* ----------------------------section two---------------------------------- */
+/*-------------------------------------sec2(body)--------------------------------------------*/
+.sec2{width: 100vw;height: 80vh;background-color: rgba(0, 0, 0, 0.700);}
+.sec2>div{display: flex;align-items: center;justify-content:center;padding:4em 5em;}
+.sec2>div>span>h5{text-transform:lowercase;color: white;font-size: 1.2rem;}
+.sec2>div>span>h1{text-transform:capitalize;color: white;margin: 0.1em 0em;font-size: 3rem;}
+.sec2>div>span>form>input{width: 40vw;margin: 0.8em 0em;padding: 0.5em;border-radius: 10px;border: none;font-size: 1rem;}
+.sec2>div>span>a{text-decoration: none;text-transform: capitalize;color: white;background-color: red; border-radius: 8px;padding: 0.3em 0.6em;font-size: 1rem;}
+.sec2>div>span>a:hover{background-color: transparent;transition: 0.5s;}
+.sec2>div>.img{width: 25vw;height: 60vh; background-image: url("o.jpg");background-position: center;background-size: cover;border-radius: 25px;margin-left:10em}
+/*-------------------------------------sec2(body)------------------------------------------------*/
 
-.sec2{width: 100vw;height: 70vh;position: relative;}
-.div{position: absolute;top: 30%;left: 10%;transform: translate(-10%,-12%);}
-.div h4{text-transform:lowercase;font-size: 1rem;color: white;}
-.div h1{text-transform: capitalize;font-size: 7.5vmin;color: white;}
-.div h3{text-transform:lowercase;font-size: 1rem;color: white;}
-.div form{display:block;margin-top: .5em;}
-.div form input{width: 70%;padding: .60em;border-radius: 20px;border: none;font-family: inherit;}
-.div form button{width: 20%;margin-top: .8em;margin-left: 6em;border-radius: 5px;padding: .60em .40em;border: none;background-color: red;color: white;text-transform: capitalize;font-size: 1.05em;font-family: inherit;}
-.div form button:hover{background-color: transparent;transition: .5s;}
-.img {float: right;position: absolute;top: 5%;right: 25%;transform: translate(50%, -5%);border-radius: 30px;width: 35vw;
-  height: 60vh;background-image: url("o.jpg");background-position: center;background-size: cover;}
+/*-------------------------------------sec3(body)------------------------------------------------*/
+.sec3{width: 100vw;height: 100vh;background-color: rgba(0, 0, 0, 0.800);}
+.sec3>div>.sspan{margin:5em 0em 0em 5em;}
+.sec3>div{display: flex;align-items: center;justify-content:center;padding: 0em 5em;}
+.sec3>div>.imgg{width: 40vw;height: 70vh;background-image: url("o.jpg");background-position: center;background-size: cover;border-radius: 20px;margin:8em 0em 0em 0em;}
+.sec3>div>span>h1{text-transform: capitalize;color: white;font-size: 3rem;}
+.sec3>div>span>h3{text-transform: capitalize;color: white;margin: 0.1em 0em;font-size: 1.5em;}
+.sec3>div>span>p{color: white;margin-bottom: 0.5em;width: 40vw;font-size: 1.1rem;}
+.sec3>div>span>a{text-decoration: none;text-transform: capitalize;color: white;background-color: red;border-radius: 8px;padding: 0.3em 0.6em;}
+/*----------------------------------------sec3(body)-------------------------------------------------*/
 
-                /* -------------------------------section three---------------------------------*/
+/*-----------------------------------------sec4(body)----------------------------------------------- */
+.sec4{width: 100vw;height: 50vh;text-align: center;background-color: rgba(0, 0, 0, 0.900);padding: 1em;}
+.sec4>div>.sspan{background-color:rgba(248, 241, 241, 0.062);border-radius: 10px;padding:1em;}
+.sec4>.span_div{display: flex;align-items: center;justify-content:space-around;padding:2em;}
+.sec4>h1{text-transform: capitalize;color: white;align-self: flex-start;font-size: 2.5rem;}
+.sec4>div>span>h2{text-transform: capitalize;color: white;font-size: 2rem;}
+.sec4>div>span>p{text-transform: capitalize;color: white;margin:0.5em;width: 20vw;text-align: justify;font-size: 1rem;}
+.sec4>div>span>a{text-decoration: none;text-transform: capitalize;color: white;background-color: red;border-radius: 10px;padding: 0.3em 0.6em;font-size: 1rem;}
+/*------------------------------------------sec4(body)--------------------------------------------------*/
 
-.sec3{width: 100vw;height: 100vh;position: relative;background: linear-gradient(to left bottom,rgba(255, 0, 0, 0.493), rgba(0, 0, 255, 0.699));}
-.img1{position: absolute;top: 5%;right: 45%;transform: translate(-20%, 5%);border-radius: 30px;width: 40vw;
-height: 80vh;background-image: url("o.jpg");background-position: center;background-size: cover;}
-.div1{position: absolute;top: 50%;left: 65%;transform: translate(-35%, -50%);}
-.div1 h1{text-transform: capitalize;color: white;font-size: 7vmin;}
-.div1 h4{text-transform: capitalize;color: white;font-size: 1.2rem;margin-top: .3em;}
-.div1 p{text-transform:lowercase;color: white;font-size: 1.2rem;margin-top: .3em;text-align: justify;width: 45vw;}
-.div1 button{width: 30%;margin-top: .3em;padding: .60em .40em;font-family: inherit;font-size:1.1em;color: white;background-color: red;border: none;border-radius: 5px;margin-top: 1em;}
-.div1 button:hover{background-color: transparent;transition: .5s;}
+/*-------------------------------------------sec5(footer)-----------------------------------------------*/
+.sec5{width: 100vw;height: 25vh;background-color: rgba(0, 0, 0, 0.900)}
+.sec5>div{display: flex;flex-direction:column;align-items: center;justify-content: center;padding: 4em;}
+.sec5>div>h1{text-transform: capitalize;color: white;margin-bottom: 0.3em;font-size: 2rem;}
+.sec5>div>a{text-decoration: none;text-transform: capitalize;color: white;background-color: red;border-radius: 10px;padding: 0.3em 0.6em;}
+/*--------------------------------------------sec5(footer)-----------------------------------------------*/
 
-                /* ---------------------------section four------------------------------------------ */
-
-.sec4{width: 100vw;height: 75vh;background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.493), rgba(0, 0, 255, 0.486));position:relative;}
-.sec4 h1{text-align: center;text-transform: capitalize;color: white;font-size: 2.5em;padding-top:1em;}
-.sec4 div .ddiv1{background-color: rgba(0, 0, 0, 0.377);padding: .50em;border-radius: 15px;position: absolute;top: 45%;left: 50%;transform: translate(46%, -20%);margin: 0em 1em;width: 50vmin;text-align: center;display: inline;}
-.sec4 div h4{text-transform: capitalize; color: white;font-size: 1.2em;}
-.sec4 div .ddiv1 p{text-align:left; text-transform: capitalize;font-size: 1em;color: white;margin: .80em;}
-.sec4 div .ddiv1 a{text-decoration: none;text-transform: capitalize;color: white;font-size: 1em;background-color: red;border-radius: 10px;padding: .30em .80em;}
-.sec4 div .ddiv1 a:hover{background-color: transparent;transition: .5s;}
-
-.sec4 div .ddiv2{background-color: rgba(0, 0, 0, 0.377);padding: .50em;border-radius: 15px;position: absolute;top: 45%;right: 50%;transform: translate(-63%, -20%);margin: 0em 1em;width: 50vmin;text-align: center;display: inline;}
-.sec4 div h4{text-transform: capitalize; color: white;font-size: 1.2em;}
-.sec4 div .ddiv2 p{text-align:left; text-transform: capitalize;font-size: 1em;color: white;margin: 1em;}
-.sec4 div .ddiv2 a{text-decoration: none;text-transform: capitalize;color: white;font-size: 1em;background-color: red;border-radius: 10px;padding: .30em .80em;}
-.sec4 div .ddiv2 a:hover {background-color: transparent; transition: .5s;}
-
-.sec4 div .ddiv3{background-color: rgba(0, 0, 0, 0.377);padding: .50em;border-radius: 15px;position: absolute;top: 45%;right: 50%;transform: translate(46%, -20%);margin: 0em 1em;width: 50vmin;text-align: center;display: inline;}
-.sec4 div h4{text-transform: capitalize; color: white;font-size: 1.2em;}
-.sec4 div .ddiv3 p{text-align:left; text-transform: capitalize;font-size: 1em;color: white;margin: .80em;}
-.sec4 div .ddiv3 a{text-decoration: none;text-transform: capitalize;color: white;font-size: 1em;background-color: red;border-radius: 10px;padding: .30em .80em;}
-.sec4 div .ddiv3 a:hover {background-color: transparent;transition: .5s;}
-
-                  /* --------------------------section five---------------------------------------- */
-
-.sec5{width: 100vw;height: 25vh;background: linear-gradient(to left bottom, rgba(255, 0, 0, 0.493), rgba(0, 0, 255, 0.486));position: relative;}
-.sec5 div{text-align: center;position: relative;top: 30%;}
-.sec5 div h1{text-transform: capitalize;color: white;font-size: 2em;margin-bottom: .50em;}
-.sec5 div a{text-decoration: none;text-transform: capitalize;color: white;background-color: red;border-radius: 10px;padding: .30em .80em;}
-.sec5 div a:hover {background-color: transparent;transition: .5s;}
-
-                  /*---------------------------section six------------------------------------- ----*/
-
-.sec6{width: 100vw;height: 25vh;background: linear-gradient(to right bottom, rgba(255, 0, 0, 0.493), rgba(0, 0, 255, 0.486));position: relative;}
-.sec6 div{text-align: center;position: relative;top: 25%;}
-.sec6 div h1{text-transform: capitalize;color: white;font-size: 1.5em;}
-.sec6 div p{text-transform:capitalize;color: white;font-size: 1em;margin:.5em;}
-.sec6 div a{text-decoration: none;text-transform: capitalize;background-color: red;border-radius: 10px;padding: .30em .80em;color: white;font-family: inherit;}
-.sec6 div a:hover {background-color: transparent;transition: .5s;font-weight: bold;}
-
-
-
-
-
-
+/*---------------------------------------------sec6(footer)----------------------------------------------*/
+.sec6{width: 100vw;height: 25vh;background-color: rgba(0, 0, 0, 0.900)}
+.sec6>div{display: flex;flex-direction:column;align-items: center;justify-content: center;padding: 2em;}
+.sec6>div>h1{text-transform: capitalize;color: white;font-size: 2rem;}
+.sec6>div>p{text-transform: lowercase;color: white;margin: 0.4em 0em;font-size: 1rem;}
+.sec6>div>a{text-decoration: none;text-transform: capitalize;color: white;background-color: red;border-radius: 10px;padding: 0.3em 0.6em;}

@@ -4,121 +4,118 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="css practice for portfolio" />
-    <meta name="keywords" content="html,css" />
     <link rel="stylesheet" href="portfolio.css" />
-    <title>css_practice</title>
+    <link rel="stylesheet" href="@mediaport.css">
+    <title>Document</title>
   </head>
   <body>
-    <!---------------------------------section 1---------------------------------------->
-    <header>
-      <section class="sec0">
-        <section class="sec1" id="sec1">
-          <nav>
-            <h2>portfo<span class="red">lio</span></h2>
-              <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#sec3">about us</a></li>
-              <li><a href="#sec4">services</a></li>
-              <li><a href="#sec5">skills</a></li>
-              <li><a href="#sec6">contact us</a></li>
-            </ul>
-            <a class="a" href="#">subscribe</a>
-          </nav>
-        </section>
-                 <!---------------------------------section 2--------------------------------------->
-        <section class="sec2">
-          <div class="div">
-            <h4>hello, my name is</h4>
-            <h1>olasunkanmi <span id="red">opeyemi</span></h1>
-            <h3>I am a web developer</h3>
-            <form>
-              <input type="email" id="mail" placeholder="Enter your email" />
-              <button>lets starts</button>
-            </form>
-          </div>
-          <div class="img"></div>
-        </section>
-      </section>
-    </header>
-      <!---------------------------------section 3---------------------------------------->
-    <main>
-      <section class="sec3" id="sec3">
-        <div class="img1"></div>
-        <div class="div1">
+    <!---------------------------------sec1(nav)---------------------------------------->
+    <section class="sec1">
+      <div>
+        <nav>
+          <h1>portfo<span class="span">lio</span></h1>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#about">about us</a></li>
+            <li><a href="#our services">service</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#contact">contact us</a></li>
+          </ul>
+          <a href="#">subscribe</a>
+        </nav>
+      </div>
+    </section>
+    <!------------------------------sec1(nav)------------------------------------------>
+
+    <!------------------------------sec2(body)------------------------------------------>
+    <section class="sec2">
+      <div>
+        <span>
+          <h5>hello my name is,</h5>
+          <h1>olasunkanmi <span class="span">opeyemi</span></h1>
+          <h5>i am a web developer</h5>
+          <form>
+            <input type="email" id="mail" placeholder="enter your email" />
+          </form>
+          <a href="#">lets start</a>
+        </span>
+        <span class="img"></span>
+      </div>
+    </section>
+    <!-----------------------------sec2(body)------------------------------------------->
+
+    <!-----------------------------sec3(body)------------------------------------------->
+    <section class="sec3">
+      <div id="about">
+        <span class="imgg"></span>
+        <span class="sspan">
           <h1>about me</h1>
-          <h4>developer <span id="red">& designer</span></h4>
+          <h3>developer <span class="span">& designer</span></h3>
           <p>
-            i am a front end web developer. i can provide clean code and pixel
-            perfect design. i also make the website more & more interactive with
-            web animations. i can provide clean code and pixel perfect design. i
-            also make the website more & more interactive with web animations. a
-            responsive design makes your website accesible to all users,
+            I am a front end web developer.I can provide clean code and pixel
+            perfect design. I also make the website more & more interactive with
+            web annimation. I can provide clean code and pixel perfect design. I
+            also make the website more & more interactive with web annimations.
+            A responsive design makes your website accesible to all user,
             regardless of their device.
           </p>
-          <button>lets talk</button>
-        </div>
-      </section>
-      <!-- ------------------------------section 4----------------------------------- -->
-      <section class="sec4" id="sec4">
-          <h1>our services</h1>
-          <div>
-            <div class="ddiv1">
-              <h4>web development</h4>
-              <p>
-                every website should be built with <br />
-                two primary goal:firstly it needs <br />
-                to work across all devices. secondly, <br />it needs to be fast
-                as possible
-              </p>
-              <a href="#">read more</a>
-            </div>
+          <a href="#">lets talk</a>
+        </span>
+      </div>
+    </section>
+    <!-----------------------------sec3(body)-------------------------------------------->
 
-            <div class="ddiv2">
-              <h4>web development</h4>
-              <p>
-                every website should be built with <br />
-                two primary goal:firstly it needs <br />
-                to work across all devices. secondly, <br />it needs to be fast
-                as possible
-              </p>
-              <a href="#">read more</a>
-            </div>
-
-            <div class="ddiv3">
-              <h4>web development</h4>
-              <p>
-                every website should be built with <br />
-                two primary goal:firstly it needs <br />
-                to work across all devices. secondly, <br />it needs to be fast
-                as possible
-              </p>
-              <a href="#">read more</a>
-            </div>
-        </div>
-      </section>
-
-      <!-- ------------------------------section five----------------------- -------------->
-      <section class="sec5" id="sec5">
-          <div>
-            <h1>let me get you a beautiful website</h1>
-            <a href="#">hire me</a>
-          </div>
-      </section>
-    </main>
-
-    <!-- ---------------------------------section six-------------------------------------- -->
-    <footer>
-      <section class="sec6" id="sec6">
-          <div>
-            <h1>olasunkanmi opeyemi</h1>
-            <p>
-              for more html tutorials - please click on the
-              link below to subscribe to my channel.
-            </p>
-            <a href="#">subscribe</a>
-          </div>
-      </section>
-    </footer>
+    <!------------------------------sec4(body)-------------------------------------------->
+    <section class="sec4" id="our services">
+      <h1>our services</h1>
+      <div class="span_div">
+        <span class="sspan">
+          <h2>web development</h2>
+          <p>
+            every website should be built with two primary goals: firstly it
+            needs to work across all device. secondly it needs to be as fast as
+            possible
+          </p>
+          <a href="#">read more</a>
+        </span>
+        <span class="sspan">
+          <h2>web development</h2>
+          <p>
+            every website should be built with two primary goals: firstly it
+            needs to work across all device. secondly it needs to be as fast as
+            possible
+          </p>
+          <a href="#">read more</a>
+        </span>
+        <span class="sspan">
+          <h2>web development</h2>
+          <p>
+            every website should be built with two primary goals: firstly it
+            needs to work across all device. secondly it needs to be as fast as
+            possible
+          </p>
+          <a href="#">read more</a>
+        </span>
+      </div>
+    </section>
+    <!-----------------------------=----------------sec4(body)-------------------------------------->
+        <hr>
+    <!---------------------------------------------sec5(footer)-------------------------------------->
+    <section class="sec5" id="skills">
+      <div>
+        <h1>let me get you a beautiful website</h1>
+        <a href="#">hire me</a>
+      </div>
+    </section>
+    <!---------------------------------------------sec5(footer)---------------------------------------->
+      <hr>
+    <!---------------------------------------------sec6(footer)---------------------------------------->
+    <section class="sec6" id="contact">
+      <div>
+        <h1>olasunkanmi opeyemi</h1>
+        <p>for more html tutorial please click on the link below to subscribe to my channel</p>
+        <a href="#">subscribe</a>
+      </div>
+    </section>
   </body>
 </html>
